@@ -1,4 +1,4 @@
-package hh.ru.school.unittesting.homework;
+package ru.hh.school.unittesting.homework;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -6,15 +6,12 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 import org.mockito.*;
 import org.mockito.junit.jupiter.MockitoExtension;
-import ru.hh.school.unittesting.homework.LibraryManager;
-import ru.hh.school.unittesting.homework.NotificationService;
-import ru.hh.school.unittesting.homework.UserService;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
 
 @ExtendWith(MockitoExtension.class)
-public class LibraryManagerTest {
+class LibraryManagerTest {
 
   @Mock
   private NotificationService notificationService;
